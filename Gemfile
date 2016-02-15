@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.2.4'
 
+
+RUBY_VERSION = '2.2.4'
 RAILS_VERSION = '~> 4.2.5.1'
 
 send :ruby, ENV['GEMFILE_RUBY_VERSION'] if ENV['GEMFILE_RUBY_VERSION']
